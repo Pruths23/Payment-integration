@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./server'); // Assuming your server file is named server.js
+const app = require('./server');
 
 describe('Payment API', () => {
   it('should return a successful response for PayPal payment', async () => {
